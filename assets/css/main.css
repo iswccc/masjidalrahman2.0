@@ -29,6 +29,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.alert-box {
+	background-color: #cce1ff;
+	color: #777;
+	font-size: 14px;
+	line-height: 23px;
+	padding: 13px 16px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.alert-box .badge {
+	background-color: ##fa7171;
+	border-radius: 3px;
+	color: #000000;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 3px 5px 3px 4px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
 body {
 	line-height: 1;
 }
@@ -1140,9 +1160,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
